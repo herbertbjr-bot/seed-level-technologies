@@ -41,8 +41,8 @@ const Header: React.FC = () => {
         </nav>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <a href="#contact" className="btn btn-primary nav-desktop" style={{ padding: '0.6rem 1.4rem', fontSize: '0.88rem' }}>
-            Get Started
+          <a href="https://portal.codingcaptain.com" className="btn btn-primary nav-desktop" style={{ padding: '0.6rem 1.4rem', fontSize: '0.88rem' }}>
+            Log In
           </a>
           <button
             aria-label="Toggle menu"
@@ -64,8 +64,8 @@ const Header: React.FC = () => {
               </li>
             ))}
             <li>
-              <a href="#contact" onClick={() => setOpen(false)} className="btn btn-primary" style={{ padding: '0.6rem 1.4rem', fontSize: '0.88rem' }}>
-                Get Started
+              <a href="https://portal.codingcaptain.com" onClick={() => setOpen(false)} className="btn btn-primary" style={{ padding: '0.6rem 1.4rem', fontSize: '0.88rem' }}>
+                Log In
               </a>
             </li>
           </ul>
